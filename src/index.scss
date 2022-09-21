@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+html {
+  background: #000;
+}
+main.Connect-Main--content-2 {
+  background-color: #185fec;
+  color: white;
+  text-align: center;
+}
+.MuiCard-root-7 {
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  background: black;
+  color: white;
+}
+.Connect-Root--root-1 {
+  background: black;
+}
+.Connect-Root--root-2 {
+  background: black;
+}
+._1ceqH ._1lB9c {
+  display: none !important;
+}
+._1ceqH ._dt3-T {
+  min-height: 310px !important;
+}
+._1ceqH ._1YOWG ._eV_dK {
+  color: black !important;
+}
+._1ceqH ._f2DT8 * {
+  color: black !important;
+}
+._1ceqH ._2fG9h {
+  padding: 0 !important;
+}
+.SlotMachine {
+  padding: 20px;
+}
+.speechBox {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.slot {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 80px;
+}
+
+section {
+  position: absolute;
+  border-radius: 15px !important;
+  border: 3px solid #185fec !important;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  line-height: 60px;
+  color: #185fec;
+  cursor: default;
+}
+
+.container {
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  transition: top ease-in-out 0.5s;
+  text-align: center;
+}
+
+.roll {
+  width: 215px;
+  cursor: pointer;
+  background-color: #c6d9ff;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px solid #185fec;
+}
+
+.rolling {
+  animation: blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
+}
