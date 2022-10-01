@@ -1,24 +1,48 @@
 body {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
-._1ceqH ._1lB9c{
+html {
+  background: #000;
+}
+main.Connect-Main--content-2 {
+  background-color: #185fec;
+  color: white;
+  text-align: center;
+}
+.MuiCard-root-7 {
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  background: black;
+  color: white;
+}
+.Connect-Root--root-1 {
+  background: black;
+}
+.Connect-Root--root-2 {
+  background: black;
+}
+._1ceqH ._1lB9c {
   display: none !important;
 }
 ._1ceqH ._dt3-T {
   min-height: 310px !important;
-  background: #fafafa !important;
 }
-._1ceqH ._1YOWG ._eV_dK{
+._1ceqH ._1YOWG ._eV_dK {
   color: black !important;
 }
-._1ceqH ._f2DT8 *{
+._1ceqH ._f2DT8 * {
   color: black !important;
 }
 ._1ceqH ._2fG9h {
-  padding: 0!important;
+  padding: 0 !important;
 }
-.SlotMachine{
+.SlotMachine {
   padding: 20px;
+}
+.speechBox {
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .slot {
   position: relative;
@@ -34,14 +58,13 @@ section {
   width: 70px;
   height: 70px;
   overflow: hidden;
-  background-color: #c6d9ff;
   border-radius: 2px;
   border: 1px solid lightgrey;
-  color: white;
   font-family: sans-serif;
   text-align: center;
   font-size: 25px;
   line-height: 60px;
+  color: #185fec;
   cursor: default;
 }
 

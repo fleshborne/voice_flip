@@ -21,15 +21,6 @@ import axios from '../../services/axios';
 import { Card, List } from 'material-ui';
 import Axios from 'axios';
 import { LoremIpsum } from 'lorem-ipsum';
-import { styled } from '@mui/material/styles';
-import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
-import MuiAccordion from '@mui/material/Accordion';
-import MuiAccordionSummary from '@mui/material/AccordionSummary';
-import MuiAccordionDetails from '@mui/material/AccordionDetails';
-import { CAccordion } from '@coreui/react';
-import { CAccordionBody } from '@coreui/react';
-import { CAccordionHeader } from '@coreui/react';
-import { CAccordionItem } from '@coreui/react';
 const { createRef } = React;
 
 // const Accordion = styled((props) => (

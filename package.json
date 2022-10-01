@@ -1,5 +1,6 @@
 {
   "name": "react-nodejs-mongodb-crud",
+  "homepage": "http://voicetones.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
