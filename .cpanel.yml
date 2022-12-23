@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/voiceton/public_html/
+    - export DEPLOYPATH=/home/voiceton/repositories/voice_flip
     - /bin/cp * $DEPLOYPATH
